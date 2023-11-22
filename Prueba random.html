@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        for (let hashTag = 0; hashTag < 10; hashTag++) {
+            document.write('hashtag: ', hashTag , '<br>');
+            if (hashTag == 6) {
+                break;
+            }
+        }    
+        document.write('<br>', '<br>', '<br>')
+
+        function saludar(){
+            alert("hola");
+            return 'hello Sebastian';
+        }
+        let saludo = saludar();
+        document.write(saludo)
+    </script>
+</body>
+</html>

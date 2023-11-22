@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones con parametros</title>
+</head>
+<body>
+    <script>
+        function suma(num1,num2){
+            let res = num1 + num2;
+            return res;
+        }
+        let resutlado = suma(20, 25);
+        document.write(resutlado);
+        document.write('<br>')
+
+        //funcion = saludar(nombre, apellido){} la flecha remplaza la palabra funtion y escribe diferente
+        //si solamente se utiliza un parametro no hace falta ponerle parentesis
+        saludar = (nombre, apellido  )=> {
+            let frase = `¡Hola ${nombre} ${apellido}! ¿como estas?`;
+            document.write(frase);
+        }
+        saludar(
+            nombre = prompt('Cual es tu nombre?'),
+            apellido = prompt('Cual es tu apellido?')
+            );
+
+        
+    </script>
+</body>
+</html>
