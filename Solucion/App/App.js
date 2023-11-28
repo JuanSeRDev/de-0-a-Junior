@@ -64,6 +64,6 @@ document.write(`
     ${app5.appInfo()} <br>
     ${app6.appInfo()} <br>
     ${app7.appInfo()} <br>
-    `);
+`);
 
 
